@@ -1,23 +1,20 @@
-package Patterns;
-/*
-1
-22
-333
-4444
- */
-public class NumberPattern2 {
-    public static void main(String[] args) {
-        int line = 4;
-        //int num = 4;
-        for(int i = 1 ; i<=line ; i++){
+class NumberPattern2{
+	public static void main(String[] args){
+		int i=1;
+		while(i<5){
+			int j=1;
+			while(j<=4){
+				System.out.print(j);
+				j++;
 
-            for(int j = 0 ; j<i ; j++){
+			}
+			System.out.println();
+			i++;
+			
+			
+		}
 
-                System.out.print(i );
+	}
 
-            }
-            System.out.println();
 
-        }
-    }
 }
